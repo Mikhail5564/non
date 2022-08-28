@@ -1,0 +1,37 @@
+body{
+    text-align: center;
+    background-color: cornflowerblue;
+
+
+}
+
+.styl{
+    display: flex;
+    justify-content: center;
+}
+
+.n1, .n2, .n3{
+    width: 30px; /*Ширина*/
+    height: 120px; /*Высота*/
+    background-color: #3f3; /*Цвет фона*/
+    color: #3ff;
+}
+
+.n2{
+    transform: rotate(90deg); /*Перевернули на 90 градусов*/
+    position: relative;    
+    bottom: 50px;
+}
+
+.pers{
+    margin-top: 200px; /*Отступ сверху*/
+    opacity: 1;
+}
+
+
+.p_active{
+    transform: rotate(90deg);
+    position: relative;
+    top: 200px;
+}
+
